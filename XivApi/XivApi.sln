@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XivApi", "XivApi\XivApi.csproj", "{ECC47B77-B84E-4A65-963D-5772A5051E34}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XivApi.Website", "XivApi\XivApi.Website.csproj", "{ECC47B77-B84E-4A65-963D-5772A5051E34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XivApi", "XivApi.Service\XivApi.csproj", "{EB21F4D5-9152-4DA7-825C-04AFDACA0F6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{ECC47B77-B84E-4A65-963D-5772A5051E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECC47B77-B84E-4A65-963D-5772A5051E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECC47B77-B84E-4A65-963D-5772A5051E34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB21F4D5-9152-4DA7-825C-04AFDACA0F6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB21F4D5-9152-4DA7-825C-04AFDACA0F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB21F4D5-9152-4DA7-825C-04AFDACA0F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB21F4D5-9152-4DA7-825C-04AFDACA0F6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

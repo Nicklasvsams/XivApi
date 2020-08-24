@@ -1,5 +1,3 @@
-using System;
-
 namespace XivApi.Models
 {
     public class ErrorViewModel

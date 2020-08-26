@@ -14,7 +14,7 @@
 
         public IActionResult Index()
         {
-            var xivWeapon = Service.GetXivWeapon();
+            var xivWeapon = Service.GetXivWeapon().Result;
 
             return View(xivWeapon);
         }
